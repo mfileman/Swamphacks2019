@@ -1,19 +1,20 @@
 import React from 'react';
-import Home from 'App.js';
-import {Button} from 'react-native';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button } from 'react-native';
+import AppNav from './AppNav';
+
 
 
 const styles = StyleSheet.create({
-  center_container: {
-    flex: 1,
-    backgroundColor: '#ff68ff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+    center_container: {
+      flex: 1,
+      backgroundColor: '#ff68ff',
+      alignItems: 'center',
+      justifyContent: 'center',
+    }
+});
 
 
-export default class Listen extends React.Component{
+export class Listen extends React.Component{
   render(){
     return (
       <View style={styles.container}>
@@ -24,6 +25,6 @@ export default class Listen extends React.Component{
           }
         />
       </View>
-    )
+    );
   }
 }

@@ -1,7 +1,6 @@
 import React from 'react';
-import {Button} from 'react-native';
-import { StyleSheet, Text, View } from 'react-native';
-
+import { StyleSheet, Text, View, Button } from 'react-native';
+import AppNav from './AppNav';
 
 const styles = StyleSheet.create({
     center_container: {

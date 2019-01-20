@@ -1,12 +1,13 @@
 import React from 'react';
-
-import Home from 'App.js'
-import Listen from 'Listen.js';
-
 import {createStackNavigator} from 'react-navigation';
 
+import Home from './App';
+import Listen from './Listen';
 
-export default const AppNav = createStackNavigator({
+
+const AppNav = createStackNavigator({
   Home: {screen: Home},
-  Listen: {screen: Listen},
+  Listen: {screen: Listen}
 });
+
+export default AppNav;
